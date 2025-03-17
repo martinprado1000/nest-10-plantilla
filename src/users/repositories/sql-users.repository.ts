@@ -20,7 +20,6 @@ export class SqlUsersRepository implements UsersRepositoryInterface {
 
   // -----------FIND ALL---------------------------------------------------------------------------------
   async findAll(limit: number, offset: number): Promise<User[]> {
-    console.log("sql")
     return await this.userModel
       .find()
       .skip(offset) // Salta los primeros `offset` registros

@@ -94,8 +94,6 @@ Configuraciones:
 
 * Patrón repository implementado en la entidad de users. Si por .env pasamos el valor 'mongo' en persistence usa el repository de mongo, de lo contrario usa el repository sql (No esta configurado como db sql)
 
-* Corrección de configuración de middleware, agregar todas la rutas en la configuracion.
-
 * Si ejecuto en mode dev solo esta dockerizada la db. 
 
 * En prod usamos el archivo docker-compose.prod.yml donde esta dockerizada la app y la db.
